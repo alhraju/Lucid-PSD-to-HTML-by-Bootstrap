@@ -212,3 +212,314 @@ a,a:hover{
 	margin-right: 15px;
 	width: 11px;
 }
+/*about long end*/
+
+/*about short start*/
+.about-short{
+	width: 100%;
+	padding: 80px 0;
+	background: #f2f2f2;
+}
+.inner-about-short{
+	width: 100%;
+	margin-top: 90px;
+}
+.inner-about-short p{
+	width: 80%;
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #999999;
+    margin-top: 20px;
+}
+/*about short end*/
+
+/*testimonials start*/
+.testimonials{
+	width: 100%;
+	padding: 80px 0;
+	background: url("../images/sliderbg.png") center top no-repeat;
+	background-size: cover;
+}
+.testimonials .title{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.testimonials .title h1{
+	color: #fff;
+}
+.testimonials .owl-carousel .owl-item h4{
+	color: #fff;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    font-style: italic;
+}
+.testimonials .owl-carousel .owl-item img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.testimonials .owl-carousel .owl-item p {
+	color: #fff;
+    margin-top: 18px;
+    margin-bottom: 0;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.testimonials .owl-carousel .owl-item h5 {
+	color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.testimonials .owl-carousel .owl-item .mar{
+	margin: 50px 0;
+}
+.testimonials .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 60px;
+}
+/*testimonials end*/
+
+/*eye catcher start*/
+.eye-catcher{
+	width: 100%;
+	padding: 40px 0;
+	background: #15141a;
+}
+.eye-catcher h3{
+	color: #fff;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+}
+.eye-catcher h3 span{
+	margin-left: 5px;
+	font-weight: 300;
+}
+.eye-catcher .inner-btn{
+	width: 100%;
+	margin: 0px 0 0;
+}
+.eye-catcher .inner-btn .btn-primary{
+	padding: 12px 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	color: #fff;
+	border-radius: 2px;
+	margin-right: 20px;
+	transition: 1s;
+}
+
+.eye-catcher .inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus{
+	background: transparent;
+	border: 1px solid #008ed6;
+	color: #008ed6;
+}
+.eye-catcher .inner-btn .btn-light{
+	padding: 12px 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	background: transparent;
+	border: 1px solid #797a7b;
+	color: #fff;
+	border-radius: 2px;
+	transition: 1s;
+}
+
+.eye-catcher .inner-btn .btn-light:hover, .inner-btn .btn-light:focus{
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	color: #fff;
+}
+/*eye catcher end*/
+
+/*price tables start*/
+.price-tables{
+	width: 100%;
+	padding: 80px 0;
+}
+.price-tables .title{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.price-tables .main-price{
+	width: 100%;
+	border: 2px solid #eee;
+	text-align: center;
+}
+.price-tables .main-price .price-head{
+	width: 100%;
+	padding: 15px 0;
+	border-bottom: 2px solid #eee;
+}
+.price-tables .main-price .price-head h2{
+	margin-bottom: 0;
+	font-size: 32px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000;
+	transition: 1s;
+}
+.price-tables .main-price .price-inner{
+	width: 100%;
+	padding: 30px 0;
+	border-bottom: 2px solid #eee;
+	transition: 1s; 
+}
+.price-tables .main-price .price-inner h1{
+	margin-bottom: 0;
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000;
+	transition: 1s; 
+}
+.price-tables .main-price .price-inner h1 sup{
+	top: -0.5em;
+	font-size: 30px;
+	font-weight: 500;
+}
+.price-tables .main-price .price-inner p{
+	font-size: 14px;
+	margin: -11px 0 0;
+	color: #999999;
+	transition: 1s; 
+}
+.price-tables .main-price .price-content{
+	width: 100%;
+	padding: 30px 30px;
+}
+.price-tables .main-price .price-content p{
+	font-size: 14px;
+	margin: 0px 0 3 0px;
+	color: #999999;
+}
+.price-tables .main-price .price-content p a{
+	color: #008ed6;
+}
+.price-tables .main-price .price-content .btn-info{
+	padding: 15px 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	background: transparent;
+	border: 2px solid #eee;
+	color: #008ed6;
+	border-radius: 2px;
+	transition: 1s;
+}
+.price-tables .main-price .price-content .btn-info:hover, .price-tables .main-price .price-content .btn-info:focus{
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	color: #fff;
+}
+.main-price:hover .price-head h2{
+	color: #008ed6;
+}
+.main-price:hover .price-inner{
+	background: #008ed6;
+}
+.main-price:hover .price-inner h1, .main-price:hover .price-inner p{
+	color: #fff;
+}
+/*price tables end*/
+
+/*contact us start*/
+.contact-us{
+	width: 100%;
+	padding: 80px 0 0;
+	background: #eee; 
+}
+.contact-us .title{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.info{
+	width: 100%;
+	padding: 40px 0 100px;
+	text-align: center;
+}
+.info .fa{
+	font-size: 32px;
+	color: #008ed6;
+	margin-bottom: 20px;
+}
+.info p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #999999;
+}
+.main-form{
+	width: 100%;
+	padding: 80px 60px;
+	margin: -70px;
+	position: relative;
+	background: #15141a;
+	z-index: 1; 
+}
+.main-form .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 24px;
+    color: #444348;
+    background: transparent;
+    border: 1px solid #444348;
+}
+.main-form .btn-info{
+	padding: 15px 30px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	background: #008ed6;
+	border: 2px solid #008ed6;
+	color: #fff;
+	border-radius: 2px;
+	transition: 1s;
+}
+.main-form .btn-info:hover, .main-form .btn-info:focus{
+	background: transparent;
+	border: 1px solid #008ed6;
+	color: #008ed6;
+}
+/*contact us end*/
+
+/*map start*/
+.map{
+	width: 100%; 
+}
+/*map end*/
+
+/*footer star*/
+.footer{
+	width: 100%;
+	padding: 40px 0;
+	text-align: center;
+	background: #15141a;
+}
+.footer .fa{
+	margin: 0 10px;
+	font-size: 24px;
+	color: #444348;
+	margin-bottom: 20px;
+}
+.footer .fa:hover{
+	color: #008ed6;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #444348;
+}
+/*footer end*/
