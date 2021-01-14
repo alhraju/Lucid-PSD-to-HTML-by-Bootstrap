@@ -460,7 +460,7 @@ a,a:hover{
 .main-form{
 	width: 100%;
 	padding: 80px 60px;
-	margin: -70px;
+	margin-bottom: -115px;
 	position: relative;
 	background: #15141a;
 	z-index: 1; 
@@ -477,6 +477,7 @@ a,a:hover{
     border: 1px solid #444348;
 }
 .main-form .btn-info{
+	margin-bottom: -30px;
 	padding: 15px 30px;
 	font-size: 14px;
 	text-transform: uppercase;
